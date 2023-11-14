@@ -1,0 +1,13 @@
+public class TestarProduto{
+    public static void main(){
+        Produto bolachaRechada = new Produto(); //cria instância/objeto
+        
+        bolachaRechada.nome = "Bolacha Recheada Treloso de Chocolate 120g";
+        bolachaRechada.preco = 2.99;
+        
+        bolachaRechada.informarNome();
+        bolachaRechada.informarPreco();
+        bolachaRechada.informarPromocao();
+        bolachaRechada.informarPreco();
+    }    
+}
