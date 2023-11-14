@@ -1,0 +1,14 @@
+public class Produto{
+        Double preco;
+        String nome;
+
+    void informarNome(){
+        System.out.println("O nome do produto é: " + nome);
+    }
+    void informarPreco(){
+        System.out.println("O preço do produto é: " + preco);
+    }
+    void informarPromocao(){
+        preco = preco - 1;
+    }
+}
