@@ -1,0 +1,10 @@
+public class TestarInterruptor{
+    public static void main(){
+        Interruptor ligadoDesligado = new Interruptor();
+        
+        ligadoDesligado.pressionar();
+        ligadoDesligado.verificarLampada();
+        ligadoDesligado.pressionar();
+        ligadoDesligado.verificarLampada();
+    }
+}
